@@ -3,13 +3,14 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--Red Laout-->
+    <!--Red Layout-->
     <LinearLayout
+        android:layout_centerInParent="true"
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <!--Blue layout-->
+        <!--Blue Layout-->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
@@ -34,21 +35,21 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
-                <!--station2-->
+                <!--Station2-->
                 <ImageView
                     android:src="@drawable/station2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
-
-
             </RelativeLayout>
+
 
 
 
         </LinearLayout>
 
-        <!--Blue layout-->
+
+        <!--Blue Layout-->
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
@@ -59,7 +60,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
-                <!--station3-->
+                <!--Station3-->
                 <ImageView
                     android:src="@drawable/station3"
                     android:layout_width="match_parent"
@@ -72,7 +73,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
-                <!--station4-->
+                <!--Station4-->
                 <ImageView
                     android:src="@drawable/station4"
                     android:layout_width="match_parent"
@@ -83,7 +84,9 @@
 
 
 
+
         </LinearLayout>
+
 
     </LinearLayout>
 
