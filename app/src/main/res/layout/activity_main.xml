@@ -23,7 +23,14 @@
             android:layout_height="match_parent">
 
             <!--Wallpaper-->
-
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/bg1" />
             <!--Fragment-->
             <FrameLayout
                 android:id="@+id/contentMainFragment"
