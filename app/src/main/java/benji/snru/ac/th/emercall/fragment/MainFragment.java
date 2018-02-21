@@ -3,10 +3,12 @@ package benji.snru.ac.th.emercall.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import benji.snru.ac.th.emercall.R;
 
@@ -16,15 +18,36 @@ import benji.snru.ac.th.emercall.R;
 
 public class MainFragment extends Fragment{
 
+
+    //    Explicit
+    private String tag = "MyTagV1";
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
         //        For Station1
         ImageView station1ImageView = getView().findViewById(R.id.imageViewStation1);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Log.d(tag,"You Click Image Station1");
+
+            }
+        });
+
+        TextView station1TextView = getView().findViewById(R.id.textViewstation1);
+        station1TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station1));
+
+            }
+        });
 
         //        For Station2
-        ImageView station1ImageView = getView().findViewById(R.id.imageViewStation2);
+
 
         //        For Station3
 
@@ -33,6 +56,11 @@ public class MainFragment extends Fragment{
 
 
     }   //Main Method
+
+    public void callStation(String numbeCall ) {
+
+    }
+
 
     @Nullable
     @Override
