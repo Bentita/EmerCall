@@ -53,12 +53,55 @@ public class MainFragment extends Fragment{
         });
 
         //        For Station2
-
+        ImageView station2ImageView = getView().findViewById(R.id.imageViewStation2);
+        station2ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callStation("2222");
+            }
+        });
+        TextView station2TextView = getView().findViewById(R.id.textViewstation2);
+        station1TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    Log.d(tag, "Click Text " + getString(R.string.station2));
+                callStation("2222");
+            }
+        });
 
         //        For Station3
-
+        ImageView station3imageView = getView().findViewById(R.id.imageViewStation3);
+        station3imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callStation("3333");
+            }
+        });
+        TextView station3TextView = getView().findViewById(R.id.textViewstation3);
+        station1TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station3));
+                callStation("3333");
+            }
+        });
 
         //        For Station4
+        ImageView station4imageView = getView().findViewById(R.id.imageViewStation4);
+        station4imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callStation("4444");
+            }
+        });
+        TextView station4TextView = getView().findViewById(R.id.textViewstation4);
+        station1TextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station4));
+                callStation("4444");
+            }
+        });
 
 
     }   //Main Method
