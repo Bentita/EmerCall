@@ -26,11 +26,13 @@
 
                 <!--Station1-->
                 <ImageView
+                    android:id="@+id/imageViewStation1"
                     android:src="@drawable/station1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <!--Title-->
                 <TextView
+                    android:id="@+id/textViewstation1"
                     android:layout_alignParentBottom="true"
                     android:padding="3dp"
                     android:gravity="center_horizontal"
@@ -38,7 +40,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="10sp"
-                    android:text="Station 1"
+                    android:text="@string/station1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />extView
             </RelativeLayout>
@@ -52,12 +54,14 @@
 
                 <!--Station2-->
                 <ImageView
+                    android:id="@+id/imageViewStation2"
                     android:src="@drawable/station2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
                 <!--Title-->
                 <TextView
+                    android:id="@+id/textViewstation2"
                     android:layout_alignParentBottom="true"
                     android:padding="3dp"
                     android:gravity="center_horizontal"
@@ -65,7 +69,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="10sp"
-                    android:text="Station 1"
+                    android:text="@string/station2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -91,6 +95,7 @@
 
                 <!--Station3-->
                 <ImageView
+                    android:id="@+id/imageViewStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
@@ -107,7 +112,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="10sp"
-                    android:text="Station 1"
+                    android:text="@string/station3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -134,7 +139,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="10sp"
-                    android:text="Station 1"
+                    android:text="@string/station4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
